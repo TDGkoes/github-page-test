@@ -19,6 +19,6 @@
 <path d="M375 287 V314 H872 V287 M624 314 V330" fill="none" stroke="#b7b7b7" stroke-width="1.2"/>
 <rect x="18" y="335" width="964" height="94" rx="15" fill="#f6f6f6"/>
 <text x="500" y="364" text-anchor="middle" font-size="17" font-weight="700">Draft · 상세 WBS는 같은 Skill 사용</text>
-<text x="500" y="389" text-anchor="middle" font-size="15" fill="#00b83f">rfp-wbs-generator-copy</text>
+<text x="500" y="389" text-anchor="middle" font-size="15" fill="#00b83f">WBS 생성 Skill</text>
 <text x="500" y="413" text-anchor="middle" font-size="14" fill="#858585">Draft는 계획 데이터 전달 · 상세는 표준 양식 Excel 생성</text>
 </g></svg>

@@ -4,3 +4,11 @@ theme: just-the-docs
 url: ""
 baseurl: ""
 search_enabled: true
+
+callouts:
+  note:
+    title: 참고
+    color: blue
+  warning:
+    title: 주의
+    color: yellow

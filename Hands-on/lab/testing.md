@@ -87,7 +87,10 @@ permalink: /lab/testing.html
 
 **미리 보기에서 ‘최종 사용자 미리 보기(End user preview)’를 끄고 작성자 화면으로 전환**합니다. 각 턴의 Activity Trace에서 선택된 Skill, 지식 검색, 도구 호출의 입력·결과·오류를 펼쳐 확인합니다. [Activity Trace 디버깅](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/authoring-activity-trace)
 
-기록(History)은 이전 테스트 대화를 다시 찾을 때 사용합니다. 캡처는 최종 사용자 미리 보기가 켜진 예이므로 작성자 화면으로 전환해 실행 정보를 확인합니다. Trace의 실행 완료 표시는 업무 품질의 합격 판정과 별개입니다.
+기록(History)은 이전 테스트 대화를 다시 찾을 때 사용합니다. 캡처는 최종 사용자 미리 보기가 켜진 예이므로 작성자 화면으로 전환해 실행 정보를 확인합니다.
+
+{: .warning }
+Trace의 실행 완료 표시는 업무 품질의 합격 판정과 별개입니다.
 
 | 결과에서 보이는 문제 | Trace에서 확인할 질문 | 원인을 구분하는 기준 |
 |---|---|---|
