@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="690" viewBox="0 0 760 690" role="img" aria-labelledby="title desc">
+<title id="title">업무 목표에서 에이전트 구성과 검증·개선으로 이어지는 관계</title>
+<desc id="desc">업무 목표와 범위에 따라 Instructions가 전체 원칙과 순서를 정의하고 Skill이 작업을 수행합니다. Skill은 Tool을 호출하고 Knowledge의 근거를 활용해 결과를 만듭니다. 테스트와 Activity Trace에서 원인을 확인한 뒤 문제가 있는 구성을 보완합니다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#999999"/></marker><g id="doc" fill="none" stroke="#00b83f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 1 H10 L15 6 V19 H2 Z M10 1 V6 H15 M5 10 H11 M5 14 H11"/></g></defs>
+<rect x="1" y="1" width="758" height="688" fill="#ffffff" rx="22" stroke="#e7e7e7"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+<rect x="18" y="16" width="724" height="64" rx="14" fill="#f6f6f6"/>
+<text x="390" y="43" font-size="20" font-weight="700" fill="#292929">업무 목표·범위</text><text x="390" y="65" font-size="14" fill="#858585">어떤 결과가 필요한가?</text>
+
+<rect x="90" y="106" width="640" height="300" rx="12" fill="#ffffff" stroke="#e6e6e6"/>
+<path d="M390 80V139" fill="none" stroke="#999999" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="128" y="129" text-anchor="start" font-size="13" fill="#858585">에이전트 구성</text>
+<rect x="260" y="145" width="260" height="68" rx="8" fill="#f6f6f6" stroke="#e6e6e6"/>
+<text x="390" y="173" font-size="20" font-weight="700" fill="#292929">Instructions</text><text x="390" y="197" font-size="15" fill="#858585">공통 원칙·전체 순서</text>
+<path d="M390 213V264" stroke="#999999" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="305" y="269" width="170" height="84" rx="8" fill="#fff" stroke="#e6e6e6" stroke-width="1"/>
+<text x="390" y="300" font-size="21" font-weight="700" fill="#292929">Skill</text><text x="390" y="326" font-size="15" fill="#858585">업무별 수행 방법</text>
+<rect x="110" y="269" width="150" height="84" rx="8" fill="#fff" stroke="#e6e6e6"/>
+<text x="185" y="300" font-size="20" font-weight="700" fill="#292929">Tool</text><text x="185" y="326" font-size="15" fill="#858585">행동·실행 기능</text>
+<rect x="530" y="269" width="180" height="84" rx="8" fill="#fff" stroke="#e6e6e6"/>
+<text x="620" y="300" font-size="20" font-weight="700" fill="#292929">Knowledge</text><text x="620" y="326" font-size="15" fill="#858585">판단의 근거 자료</text>
+<path d="M300 311H266" stroke="#999999" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<path d="M524 311H481" stroke="#999999" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="281" y="257" font-size="13" fill="#858585">호출·결과</text><text x="501" y="257" font-size="13" fill="#858585">근거</text>
+
+<path d="M390 353V441" stroke="#999999" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="250" y="446" width="280" height="64" rx="8" fill="#fff" stroke="#e6e6e6"/>
+<text x="390" y="473" font-size="20" font-weight="700" fill="#292929">결과·산출물</text><text x="390" y="496" font-size="15" fill="#858585">내용·근거·업무 조건 충족</text>
+<path d="M390 510V556" stroke="#999999" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="90" y="560" width="640" height="76" rx="14" fill="#f6f6f6"/>
+<text x="390" y="590" font-size="20" font-weight="700" fill="#292929">테스트·Activity Trace</text><text x="390" y="616" font-size="15" fill="#00b83f">기대 결과와 실행 증거 대조</text>
+<path d="M90 599H40V185H84" stroke="#999999" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#arrow)"/>
+<text x="390" y="658" font-size="14" fill="#858585">원인에 해당하는 구성을 보완하고 재검증</text>
+<use href="#doc" x="288" y="156"/>
+<use href="#doc" x="123" y="283"/>
+<use href="#doc" x="332" y="283"/>
+<use href="#doc" x="542" y="283"/>
+<use href="#doc" x="280" y="456"/>
+<use href="#doc" x="238" y="573"/>
+</g></svg>

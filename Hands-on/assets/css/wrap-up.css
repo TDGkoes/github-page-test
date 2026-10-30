@@ -1,0 +1,19 @@
+/* Scoped to the wrap-up page. */
+.lab-wrapup-figure { margin: 20px 0; }
+.lab-wrapup-figure img { display: block; width: 100%; max-width: 760px; height: auto; margin: auto; }
+.lab-wrapup-caption { margin: 10px 0 0; color: #536176; font-size: 0.9em; text-align: center; }
+.lab-wrapup-checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 12px; margin: 20px 0; }
+.lab-wrapup-check { padding: 18px; border: 1px solid #dae3ed; border-top: 3px solid #336bc7; border-radius: 8px; background: #f7faff; }
+.lab-wrapup-check .lab-wrapup-number { color: #336bc7; font-size: 0.8em; font-weight: 700; letter-spacing: 0.06em; }
+.lab-wrapup-check h4 { margin: 8px 0; font-size: 1em; font-weight: 700; }
+.lab-wrapup-check p { margin: 0; color: #536176; font-size: 0.9em; line-height: 1.65; }
+.lab-wrapup-canvas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 20px 0; }
+.lab-wrapup-field { padding: 18px; border: 1px solid #d9e1e9; border-radius: 8px; background: #fff; min-width: 0; }
+.lab-wrapup-field label { display: block; margin-bottom: 8px; color: #243449; font-weight: 700; }
+.lab-wrapup-field p { margin: 0 0 12px; color: #536176; font-size: 0.9em; line-height: 1.65; }
+.lab-wrapup-field textarea { display: block; box-sizing: border-box; width: 100%; min-height: 94px; padding: 10px; border: 1px solid #c5d0de; border-radius: 4px; background: #fff; color: #243449; font: inherit; font-size: 0.9em; resize: vertical; }
+.lab-wrapup-field textarea:focus-visible { outline: 3px solid #3674d0; outline-offset: 2px; }
+.lab-wrapup-field textarea::placeholder { color: #738295; }
+.lab-wrapup-note { color: #536176; font-size: 0.9em; }
+@media (max-width: 560px) { .lab-wrapup-canvas { grid-template-columns: 1fr; } }
+@media print { .lab-wrapup-field, .lab-wrapup-check { break-inside: avoid; } .lab-wrapup-field textarea { min-height: 110px; } }
