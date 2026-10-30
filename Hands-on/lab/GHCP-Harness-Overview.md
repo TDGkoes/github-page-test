@@ -118,5 +118,6 @@ Step4에서 공통·업무별로 연결합니다. 인력 추천의 ‘실명’�
 
 <nav class="lab-page-nav" aria-label="페이지 이동">
   <a class="lab-page-nav__prev" href="{{ '/' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
   <a class="lab-page-nav__next" href="{{ '/lab/agent-instructions.html' | relative_url }}" rel="next">다음</a>
 </nav>

@@ -52,7 +52,7 @@ RFP에서 요구사항·구축 청사진·추천 인력을 정리하고, 그 결
 | [Step3. Tools 및 MCP 등록]({{ '/lab/tools-mcp.html' | relative_url }}) | 필요한 행동과 출처를 기준으로 Learn MCP 연결 |
 | [Step4. Knowledge 구성]({{ '/lab/knowledge.html' | relative_url }}) | 인력·참고 자료의 역할과 검색 범위 구성 |
 | [Step5. 테스트 및 Activity Trace]({{ '/lab/testing.html' | relative_url }}) | 기대 동작과 실행 증거를 대조하고 원인에 맞게 개선 |
-| [Step6. 정리 및 마무리]({{ '/lab/wrap-up.html' | relative_url }}) | 설계·검증 기준을 정리하고 자신의 업무에 적용 |
+| [정리 및 마무리]({{ '/lab/wrap-up.html' | relative_url }}) | 설계·검증 기준을 정리하고 자신의 업무에 적용 |
 
 ---
 

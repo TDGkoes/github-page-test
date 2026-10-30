@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Step6. 정리 및 마무리"
+title: "정리 및 마무리"
 nav_order: 8
 permalink: /lab/wrap-up.html
 ---
 
-# Step6. 정리 및 마무리
+# 정리 및 마무리
 
 {: .warning}
 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
