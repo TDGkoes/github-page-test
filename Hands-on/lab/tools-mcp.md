@@ -1,12 +1,14 @@
 ---
 layout: default
 title: "Step3. Tools 및 MCP 등록"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 3
+nav_order: 5
 permalink: /lab/tools-mcp.html
 ---
 
 # Step3. Tools 및 MCP 등록
+
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 **학습 목표:** 업무에 필요한 기능과 출처를 기준으로 도구를 선택하고, Learn MCP의 실제 호출 결과를 확인합니다.
 
@@ -65,4 +67,8 @@ Microsoft Learn MCP를 사용해 Azure Document Intelligence의 문서 추출 �
 
 ---
 
-[← Step2. Skills 구성]({{ '/lab/skills.html' | relative_url }}) · [전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }}) · [Step4. Knowledge 구성 →]({{ '/lab/knowledge.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/skills.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+  <a class="lab-page-nav__next" href="{{ '/lab/knowledge.html' | relative_url }}" rel="next">다음</a>
+</nav>

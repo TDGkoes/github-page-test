@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Step5. 테스트 및 Activity Trace"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 5
+nav_order: 7
 permalink: /lab/testing.html
 ---
 
 # Step5. 테스트 및 Activity Trace
 
-<!-- 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. -->
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 **학습 목표:** 기대 결과와 실제 증거를 대조하고, 처음 어긋난 지점을 찾아 해당 구성을 수정·재검증합니다.
 
@@ -135,4 +135,8 @@ Trace의 실행 완료 표시는 업무 품질의 합격 판정과 별개입니�
 
 ---
 
-[← Step4. Knowledge 구성]({{ '/lab/knowledge.html' | relative_url }}) · [전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }}) · [Step6. 정리 및 마무리 →]({{ '/lab/wrap-up.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/knowledge.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+  <a class="lab-page-nav__next" href="{{ '/lab/wrap-up.html' | relative_url }}" rel="next">다음</a>
+</nav>

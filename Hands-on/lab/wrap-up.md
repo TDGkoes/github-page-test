@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Step6. 정리 및 마무리"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 6
+nav_order: 8
 permalink: /lab/wrap-up.html
 ---
 
 # Step6. 정리 및 마무리
 
-<!-- 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. -->
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 RFP 분석·제안서·WBS 생성 사례를 통해 **업무를 나누고, 실행 기능과 근거 자료를 연결하고, 결과를 검증하며 개선하는 에이전트 구성 방법**을 살펴봤습니다. 같은 원칙을 다른 업무에도 적용할 수 있습니다.
 
@@ -64,4 +64,7 @@ RFP 분석·제안서·WBS 생성 사례를 통해 **업무를 나누고, 실행
 
 ---
 
-[← Step5. 테스트 및 Activity Trace]({{ '/lab/testing.html' | relative_url }}) · [전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/testing.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+</nav>

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Step4. Knowledge 구성"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 4
+nav_order: 6
 permalink: /lab/knowledge.html
 ---
 
 # Step4. Knowledge 구성
 
-<!-- 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. -->
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 **학습 목표:** 판단에 필요한 자료를 공통·업무별로 연결하고, 자료의 내용과 출처가 실제로 조회되는지 확인합니다.
 
@@ -107,4 +107,8 @@ SharePoint 원본을 변경했다고 즉시 검색 결과가 갱신되었다고 
 
 ---
 
-[← Step3. Tools 및 MCP 등록]({{ '/lab/tools-mcp.html' | relative_url }}) · [전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }}) · [Step5. 테스트 및 Activity Trace →]({{ '/lab/testing.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/tools-mcp.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+  <a class="lab-page-nav__next" href="{{ '/lab/testing.html' | relative_url }}" rel="next">다음</a>
+</nav>

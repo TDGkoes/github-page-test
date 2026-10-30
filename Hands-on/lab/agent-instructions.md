@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Step1. GHCP Harness 에이전트 생성 및 Instructions 작성"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 1
+nav_order: 3
 permalink: /lab/agent-instructions.html
 ---
 
 # Step1. GHCP Harness 에이전트 생성 및 Instructions 작성
 
-<!-- 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. -->
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 **학습 목표:** GHCP 에이전트를 생성하고 이름·역할·업무 범위·공통 규칙을 입력한 뒤 저장합니다.
 
@@ -20,7 +20,6 @@ permalink: /lab/agent-instructions.html
 
 <!-- 편집 메모: 홈 화면 및 환경 확인 이미지 추가 필요 -->
 
-{: .note }
 **확인:** 선택한 환경의 홈 화면과 중앙의 에이전트 카드가 보입니다.
 
 ### 2. GitHub Copilot 표시가 있는 에이전트 카드 선택
@@ -87,4 +86,8 @@ GHCP 에이전트를 생성할 때 사용하는 카드입니다. 하단의 **다
 
 ---
 
-[← 전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }}) · [Step2. Skills 구성 →]({{ '/lab/skills.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/GHCP-Harness-Overview.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+  <a class="lab-page-nav__next" href="{{ '/lab/skills.html' | relative_url }}" rel="next">다음</a>
+</nav>

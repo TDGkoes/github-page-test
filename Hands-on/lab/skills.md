@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Step2. Skills 구성"
-parent: "Microsoft Copilot Studio GHCP Harness Hands-on Lab"
-nav_order: 2
+nav_order: 4
 permalink: /lab/skills.html
 ---
 
 # Step2. Skills 구성
 
-<!-- 내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. -->
+{: .warning}
+내용 검토용 초안: 실습 자료는 보완 중이므로 다운로드·참조 링크를 제외했습니다. 실습 자료 작업 완료 후 교안과 자료 링크를 수정하여 재배포할 예정입니다. 
 
 **학습 목표:** 업무별 입력·출력·완료 기준을 구분하고, 이전 결과를 이어 쓰도록 세 Skill을 등록합니다.
 
@@ -176,4 +176,8 @@ WBS 생성 Skill 패키지(.zip)
 
 ---
 
-[← Step1. GHCP Harness 에이전트 생성 및 Instructions 작성]({{ '/lab/agent-instructions.html' | relative_url }}) · [전체 개요]({{ '/GHCP-Harness-Agent-Lab.html' | relative_url }}) · [Step3. Tools 및 MCP 등록 →]({{ '/lab/tools-mcp.html' | relative_url }})
+<nav class="lab-page-nav" aria-label="페이지 이동">
+  <a class="lab-page-nav__prev" href="{{ '/lab/agent-instructions.html' | relative_url }}" rel="prev">이전</a>
+  <a class="lab-page-nav__home" href="{{ '/' | relative_url }}">홈</a>
+  <a class="lab-page-nav__next" href="{{ '/lab/tools-mcp.html' | relative_url }}" rel="next">다음</a>
+</nav>

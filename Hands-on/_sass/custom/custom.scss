@@ -1,0 +1,61 @@
+.main-content h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  // Override the theme's responsive heading-size utility.
+  font-size: 1.125rem !important;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+// Keep previous and next navigation at the outer edges of the content column.
+.main-content .lab-page-nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.lab-page-nav > a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.lab-page-nav__prev {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  text-align: left;
+}
+
+.lab-page-nav__home {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  text-align: center;
+}
+
+.lab-page-nav__next {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  text-align: right;
+}
+
+@media (max-width: 40rem) {
+  .main-content .lab-page-nav {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .lab-page-nav__next {
+    grid-column: 2;
+  }
+
+  .lab-page-nav__home {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
